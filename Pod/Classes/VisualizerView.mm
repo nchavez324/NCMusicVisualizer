@@ -54,11 +54,8 @@
     childCell.birthRate = 60.0f;
     childCell.velocity = 0.0f;
     
-    childCell.contents = (id)[[UIImage imageNamed:@"particleTexture.png"] CGImage];
-    
-    /*UIImage *p = [UIImage imageNamed:@"particleTexture" inBundle:[[NCToolBelt sharedInstance] internalBundle] compatibleWithTraitCollection:nil];
-      childCell.contents = p;
-    */
+    UIImage *p = [UIImage imageNamed:@"particleTexture" inBundle:[[NCToolBelt sharedInstance] internalBundle] compatibleWithTraitCollection:nil];
+      childCell.contents = (id)p.CGImage;
       
     cell.emitterCells = @[childCell];
     
