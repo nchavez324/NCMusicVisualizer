@@ -1,12 +1,3 @@
-#
-# Be sure to run `pod lib lint NCMusicVisualizer.podspec' to ensure this is a
-# valid spec and remove all comments before submitting the spec.
-#
-# Any lines starting with a # are optional, but encouraged
-#
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = "NCMusicVisualizer"
   s.version          = "0.1.0"
@@ -14,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/nchavez324/NCMusicVisualizer"
   
   s.license          = 'MIT'
-  s.author           = { "Nick Chavez" => "nchavez324@yahoo.com" }
+  s.author           = { "Nick Chavez" => "chavez.a.nicolas@gmail.com" }
   s.source           = { :git => "https://github.com/nchavez324/NCMusicVisualizer.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '7.0'
